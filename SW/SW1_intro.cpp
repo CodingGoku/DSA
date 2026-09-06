@@ -14,7 +14,7 @@ int constantWindow(vector<int>& arr, int k) {
         sum += arr[i];
     }
 
-    int maxi = INT_MIN;
+    int maxi = sum;
     while(r < n-1) { // r < n will be out of boundary
         sum -= arr[l];
         l++;
